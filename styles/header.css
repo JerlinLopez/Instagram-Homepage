@@ -1,0 +1,171 @@
+.sidebar {
+  border-right: 1px solid;
+  border-color: rgb(212, 210, 210);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: white;
+  width: 72px;
+  z-index: 200;
+  padding-top: 30px;
+}
+
+.sidebar-img,
+.insta-icon {
+  width: 22px;
+  height: 22px;
+}
+.sidebar-container {
+  padding-top: 20px;
+}
+.image-div,
+.insta-div,
+.hamburger-div {
+  padding-top: 8px;
+  display: flex;
+  height: 50px;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  /* justify-content: space-between; */
+}
+.image-div:hover {
+  background-color: rgb(231, 228, 228);
+}
+.sidebar-text {
+  padding-top: 5px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hamburger-div {
+  justify-content: end;
+  height: 320px;
+}
+.message,
+.notifications {
+  position: relative;
+}
+.notifications-div {
+  position: absolute;
+  background-color: red;
+  padding: 2px 4px 2px 4px;
+  border-radius: 35px;
+  top: 6px;
+  right: 23px;
+  color: rgb(255, 0, 0);
+  font-size: 4px;
+  font-weight: bold;
+}
+.message-notifications {
+  position: absolute;
+  background-color: red;
+  padding: 2px 5px 2px 5px;
+  border-radius: 35px;
+  top: 5px;
+  right: 19px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+}
+.top-section {
+  margin-left: 135px;
+  /* margin-top: 30px; */
+}
+.about-section {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+}
+.profile-picture {
+  width: 250px;
+  margin-top: 30px;
+}
+.profile-pic {
+  height: 150px;
+  border-radius: 100px;
+  border: 6px solid rgb(209, 206, 206);
+  outline: 5px solid white;
+  outline-offset: -6px;
+}
+.row1,
+.row2,
+.row3,
+.row4{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+.verify-img{
+  width: 20px;
+  height: 20px;
+  padding-right: 25px;
+}
+.username{
+  font-size: 22px;
+}
+.button-following {
+  padding: 7px 25px 7px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.button-message {
+  margin-left: 8px;
+  padding: 7px 15px 7px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.button-add-frnd{
+   margin-left: 8px;
+  padding: 7px 10px 7px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.addfrnd-img{
+  width: 13px;
+  height: 13px;
+}
+.more-img{
+  width: 30px;
+  padding-left: 12px;
+}
+.number{
+  font-size:16px ;
+  font-weight: 500;
+  padding-right: 4px;
+}
+.text{
+  padding-right: 40px;
+}
+.name ,
+.designation ,
+.about-me{
+  font-size: 14px;
+padding-bottom: 3px;
+}
+.name{
+  font-weight: 500;
+}
+.designation{
+  font-weight: 300;
+  color: gray;
+}
+.about-me{
+  font-weight: 300;
+}
+.following{
+  font-size: 12px;
+  color: rgb(153, 151, 151);
+}
+.span{
+  color: black;
+}
