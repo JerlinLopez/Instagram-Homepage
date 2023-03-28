@@ -1,75 +1,3 @@
-.sidebar {
-  border-right: 1px solid;
-  border-color: rgb(212, 210, 210);
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  top: 0;
-  background-color: white;
-  width: 72px;
-  z-index: 200;
-  padding-top: 30px;
-}
-
-.sidebar-img,
-.insta-icon {
-  width: 22px;
-  height: 22px;
-}
-.sidebar-container {
-  padding-top: 20px;
-}
-.image-div,
-.insta-div,
-.hamburger-div {
-  padding-top: 8px;
-  display: flex;
-  height: 50px;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-  /* justify-content: space-between; */
-}
-.image-div:hover {
-  background-color: rgb(231, 228, 228);
-}
-.sidebar-text {
-  padding-top: 5px;
-  font-size: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.hamburger-div {
-  justify-content: end;
-  height: 320px;
-}
-.message,
-.notifications {
-  position: relative;
-}
-.notifications-div {
-  position: absolute;
-  background-color: red;
-  padding: 2px 4px 2px 4px;
-  border-radius: 35px;
-  top: 6px;
-  right: 23px;
-  color: rgb(255, 0, 0);
-  font-size: 4px;
-  font-weight: bold;
-}
-.message-notifications {
-  position: absolute;
-  background-color: red;
-  padding: 2px 5px 2px 5px;
-  border-radius: 35px;
-  top: 5px;
-  right: 19px;
-  color: white;
-  font-size: 10px;
-  font-weight: bold;
-}
 .top-section {
   margin-left: 125px;
   margin-right: 25px;
@@ -78,6 +6,7 @@
   display: flex;
   flex-direction: row;
   background-color: rgb(255, 255, 255);
+  width: 750px;
 }
 .profile-picture {
   display: flex;
@@ -178,6 +107,7 @@ padding-bottom: 3px;
   justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 20px;
+  width: 750px;
   /* align-items: center; */
 }
 .story-thumbnail-img{
@@ -191,4 +121,75 @@ border-radius: 48px;
 
 .highlights-caption{
 text-align: center;  
+}
+.bottom-section{
+  width: 750px;
+  padding-left: 85px;
+  padding-right:20px ;
+}
+
+.post-reel-tag{
+  display: flex;
+  flex-direction: row;
+  padding-left: 265px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid rgb(207, 201, 201);
+}
+.section-icon{
+  height: 13px;
+}
+.section-posts,
+.section-reels,
+.section-tagged{
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration:none;
+  padding-right: 50px;
+  color: gray;
+}
+
+.posts{
+  display: grid;
+  grid-template-columns:265px 265px 250px;
+  grid-gap:4px;
+
+}
+.div-img{
+  position: relative;
+ margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 250px;
+}
+
+.post-img{
+  height: 260px;
+  width: 265px;
+  object-fit: cover;
+}
+.div-img:hover
+{
+ opacity: 0.5;
+ color: rgba(0, 0, 0, 0.8);
+}
+#post-icon-id{
+  position: relative;
+}
+#post-reels-icon{
+  position: absolute;
+  width: 20px;
+  color: white;
+  top: 8px;
+  right: 8px;
+  
+}
+
+@media (min-width:1500px){
+  .main-body{
+    margin-left: 350px;
+    margin-right: 550px;
+  }
+   .sidebar{
+   padding-right: 170px;
+  }
 }

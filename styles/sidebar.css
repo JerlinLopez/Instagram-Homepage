@@ -1,0 +1,65 @@
+.sidebar {
+  border-right: 1px solid;
+  border-color: rgb(212, 210, 210);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: white;
+  width: 72px;
+  z-index: 200;
+  padding-top: 30px;
+}
+
+.sidebar-img,
+.insta-icon {
+  width: 22px;
+  height: 22px;
+}
+.sidebar-container {
+  padding-top: 20px;
+}
+.image-div,
+.insta-div,
+.hamburger-div {
+  padding-top: 20px;
+  display: flex;
+  height: 50px;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  /* justify-content: space-between; */
+}
+.image-div:hover {
+  background-color: rgb(231, 228, 228);
+}
+.hamburger-div {
+  justify-content: end;
+  height: 320px;
+}
+.message,
+.notifications {
+  position: relative;
+}
+.notifications-div {
+  position: absolute;
+  background-color: red;
+  padding: 2px 4px 2px 4px;
+  border-radius: 35px;
+  /* top: px; */
+  right: 23px;
+  color: rgb(255, 0, 0);
+  font-size: 4px;
+  font-weight: bold;
+}
+.message-notifications {
+  position: absolute;
+  background-color: red;
+  padding: 2px 5px 2px 5px;
+  border-radius: 35px;
+  /* top: 5px; */
+  right: 19px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+}
